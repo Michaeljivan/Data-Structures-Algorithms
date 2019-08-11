@@ -22,7 +22,6 @@ namespace Algorithms
            // Variables to help specify
            int max = 0;
            int min = 0;
-          // int temp;
            
            for(int i = 1; i < array.Length; i++)
            {
@@ -38,7 +37,7 @@ namespace Algorithms
                }
            }
 
-          // temp = array[min];
+           
            array[min] = array[min];
            array[max] = array[max];
 
